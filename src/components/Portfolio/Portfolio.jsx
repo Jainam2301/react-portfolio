@@ -25,6 +25,11 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <a href="https://live-aquaria.onrender.com">
+            <img src={Fish} alt="Aquarium" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
           <a href="https://jainam2301.github.io/Simon-Game/">
             <img src={Simon} alt="Simon Game" />
           </a>
@@ -34,11 +39,7 @@ const Portfolio = () => {
             <img src={Drum} alt="Drum Kit" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
-          <a href="https://live-aquaria.onrender.com">
-            <img src={Fish} alt="Aquarium" />
-          </a>
-        </SwiperSlide>
+        
       </Swiper>
     </div>
   );
