@@ -49,7 +49,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
-            detail={"Figma, Photoshop"}
+            detail={"Figma, Photoshop, Adobe Illustrator, Adobe xd"}
           />
         </motion.div>
         {/* second card */}
