@@ -35,7 +35,7 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://live-aquaria.onrender.com/login">
+          <a href="https://live-aquaria.onrender.com">
             <img src={Fish} alt="Aquarium" />
           </a>
         </SwiperSlide>
