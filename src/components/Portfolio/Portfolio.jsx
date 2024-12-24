@@ -6,6 +6,7 @@ import Drum from "../../img/Drum.png";
 import Fish from "../../img/Aquarium.png"
 import { themeContext } from "../../Context";
 import Simon from "../../img/Game-1.png";
+import Note from "../../img/Note.png"
 
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -27,6 +28,11 @@ const Portfolio = () => {
         <SwiperSlide>
           <a href="https://live-aquaria.onrender.com">
             <img src={Fish} alt="Aquarium" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://note-3e1j.onrender.com/">
+            <img src={Note} alt="Note App" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
