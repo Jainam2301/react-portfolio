@@ -29,21 +29,25 @@ const Portfolio = () => {
           <a href="https://live-aquaria.onrender.com">
             <img src={Fish} alt="Aquarium" />
           </a>
+          {/* <p>Aquarium</p> */}
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://note-3e1j.onrender.com/">
             <img src={Note} alt="Note App" />
           </a>
+          {/* <p>Note App</p> */}
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://jainam2301.github.io/Simon-Game/">
             <img src={Simon} alt="Simon Game" />
           </a>
+          {/* <p>Simon Game</p> */}
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://jainam2301.github.io/Drum-Kit/">
             <img src={Drum} alt="Drum Kit" />
           </a>
+          {/* <p>Drum Kit Application</p> */}
         </SwiperSlide>
         
       </Swiper>
